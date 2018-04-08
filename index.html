@@ -7,7 +7,8 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/black_modified.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +25,44 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Self Introduction &amp; About My Recent Activities</h2></br>
+					<p class="name-introduction">Department of Aeronautics and Astronautics. The University of Tokyo.</p>
+					<p class="name-introduction">Artificial Intelligence Laboratry Master course 1st grade.</p>
+					<p class="name-introduction">Hidehisa Arai</p>
+				</section>
+
+				<section>
+				  <section>
+            <h2>Self-Introduction</h2>
+						<div style="list-style-position: inside;">
+              <ul>
+                <li>Name: <span class="fragment highlight-red">荒居</span> 秀尚(Arai Hidehisa).</li>
+								<li class="fragment fade-up">Birthday: Dec 13th, 1994 (23 years old).</li>
+						    <li class="fragment fade-up">Birthplace: Setagaya-ku, Tokyo.</li>
+						    <li class="fragment fade-up">Graduated: Sugamo High School, The University of Tokyo.</li>
+						    <li class="fragment fade-up">Hobby: 躰道(Taidou), Programming(I hope).</li>
+						    <li class="fragment fade-up">Skill: Acrobat.</li>
+					    </ul>
+					</div>
+				  </section>
+
+					<section>
+						<h2>What's Taidou?</h2>
+					</section>
+
+					<section>
+            <h2>Taidou is ...</h2>
+						<ul>
+              <li class="fragment fade-up">A kind of marshal arts derived from Karate.</li>
+              <li class="fragment fade-up">Use the dynamic movement of whole body.</li>
+						</ul>
+					</section>
+
+					<section data-background-video="https://www.youtube.com/watch?v=AtVVSdO6xD8">
+
+					</section>
+			  </section>
 			</div>
 		</div>
 
@@ -42,7 +79,9 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+
+				transition: 'convex'
 			});
 		</script>
 	</body>
