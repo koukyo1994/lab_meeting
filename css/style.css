@@ -18,3 +18,7 @@ p.name-introduction {
   left: 20px;
   float: left;
 }
+
+.introduction {
+  font-size: 10px;
+}
