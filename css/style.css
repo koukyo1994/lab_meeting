@@ -31,6 +31,18 @@ html.dimbg .slide-background {
   opacity: 0.4 !important;
 }
 
+html.strong .slide-background {
+  opacity: 0.6 !important;
+}
+
+html.profile .slide-background {
+  opacity: 0.3 !important;
+}
+
+html.whatiskaggle .slide-background {
+  opacity: 0.3 !important;
+}
+
 .overlay {
   z-index: 2;
   display: block;
